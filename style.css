@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(63, 63, 63);
+}
+.answer {
+  cursor: pointer;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: 1px;
+  color: white;
+  background-color: rgb(0, 174, 174);
+  padding: 16px;
+  border: 1px solid black;
+}
+.selected {
+  background-color: rgb(100, 146, 255);
+}
+#header {
+  text-align: center;
+  background-color: white;
+}
+#footer {
+  text-align: center;
+}
+.answerText {
+  font-size: 2em;
+}
+
+.answerText img {
+  width: 200px;
+  border-radius: 10px;
+  height: 133px;
+}
+
+.answerText p {
+  font-size: 18px;
+}
+
+h2 {
+  padding-top: 1em;
+}
+h1 {
+  font-size: 4em;
+}
+#content {
+  background-color: white;
+  width: 566px;
+  padding: 16px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+.muted {
+  opacity: 0.25;
+}
+.result {
+  display: none;
+}
+#retryButton {
+  display: none;
+}
+#content {
+  margin: auto;
+}
+.answers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #337ab7 0, #265a88 100%);
+  background-repeat: repeat-x;
+  border-color: #245580;
+  color: #fff;
+  background-color: #337ab7;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+.btn-block {
+  display: block;
+  width: 570px;
+}
